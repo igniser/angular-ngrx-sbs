@@ -1,0 +1,13 @@
+<h2>Home Library</h2>
+
+<div>
+  <div>
+    {{ (author$ | async ).name}}
+  </div>
+</div>
+<div>Books</div>
+<ul>
+  <li *ngFor="let book in Books">
+    {{book.title}}
+  </li>
+</ul>

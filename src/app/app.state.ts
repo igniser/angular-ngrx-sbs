@@ -9,6 +9,7 @@ export interface Author {
 }
 export interface Book {
   authorId: any;
+  title: any;
   description: any;
   publishDate: any;
 }
